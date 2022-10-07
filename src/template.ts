@@ -6,6 +6,7 @@ export function getTemplate(text: string) {
 		  body {
 			  font-size: 14px;
 			  background-color: #fff;
+              margin-top: 0;
 			  font-family: "Georgia",
 				  "Xin Gothic",
 				  "Hiragino Sans GB",
@@ -21,7 +22,7 @@ export function getTemplate(text: string) {
 			  padding-bottom: 8px;
 			  color: #333;
 		  }
-		  h2:first-child {
+		  h2:first-child, h3:first-child {
 			  margin-top: 0;
 		  }
 			h4,
